@@ -158,7 +158,7 @@ class MainActivity : BaseActivity(),ListLisenar, OnCarItemClickListner,Playable,
         MobileAds.initialize(this) {}
 
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-8786215020718835/7057738492"
+        mInterstitialAd.adUnitId = "ca-app-pub-00/00"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
         mInterstitialAd.show()
         MobileAds.initialize(
