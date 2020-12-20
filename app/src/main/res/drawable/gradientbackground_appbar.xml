@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+
+
+            <gradient
+                android:angle="180"
+                android:centerY="180"
+                android:centerX="0"
+                android:startColor="?android:attr/windowBackground"
+                android:endColor="?android:attr/windowBackground"
+                android:type="linear" tools:targetApi="lollipop" />
+        </shape>
+    </item>
+</selector>

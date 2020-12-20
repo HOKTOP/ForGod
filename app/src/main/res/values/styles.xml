@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+        <item name="android:iconTint" tools:targetApi="o">@color/white</item>
+        <item name="fontFamily">@font/belleza</item>
+        <item name="cardForegroundColor">@color/colorPrimary</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    <style name="AppThemee" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+        <item name="cardForegroundColor">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
+
+        <item name="android:dialogMessage">@color/colorPrimary</item>
+        <item name="android:background">@color/white</item>
+
+    </style>
+
+    <style name="mytoast">
+        <item name="stStrokeColor">@color/white</item>
+        <item name="stTextColor">@color/colorAccent</item>
+        <item name="stColorBackground">@color/white</item>
+    </style>
+    <style name="mytoastdark">
+        <item name="stStrokeColor">@color/white</item>
+        <item name="stTextColor">@color/colorAccent</item>
+        <item name="stColorBackground">@color/white</item>
+    </style>
+    <!--Style pour les alertDialog-->
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorTertiary">@color/colorPrimaryDark</item>
+        <item name="android:buttonBarButtonStyle">@style/MyDialogButton</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/changa_bold</item>
+        <item name="android:background">@color/lightblue</item>
+    </style>
+    <style name="MyDialogButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/lightblue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fragment.home.HomeFragment">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/SearchinRecyler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawingCacheQuality="auto"
+        android:gravity="center">
+
+    </androidx.appcompat.widget.SearchView>
+    <in.myinnos.alphabetsindexfastscrollrecycler.IndexFastScrollRecyclerView
+        android:id="@+id/ReaderRcy"
+        android:layout_below="@+id/SearchinRecyler"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        tools:listitem="@layout/layout_readers">
+
+    </in.myinnos.alphabetsindexfastscrollrecycler.IndexFastScrollRecyclerView>
+
+</RelativeLayout>

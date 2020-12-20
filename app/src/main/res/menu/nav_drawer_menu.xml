@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/al-quran"
+            android:icon="@drawable/alqruan_sm"
+            android:title="@string/alqruan" />
+        <item
+            android:id="@+id/alqibla"
+            android:icon="@drawable/ic_compass"
+            android:title="@string/alqibla" />
+        <item
+            android:icon="@drawable/ic_video"
+            android:id="@+id/videos"
+            android:title="@string/videos" />
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136479813193",
+    "project_id": "forgod-1c57f",
+    "storage_bucket": "forgod-1c57f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136479813193:android:0e4976d425f9bc977f5998",
+        "android_client_info": {
+          "package_name": "com.hok.forgod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136479813193-gabmoevg225bg5ruvt77qt1r8685q0ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABKPH8XxNXfT5u-E-_QHaNDZxFOMdcLKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136479813193-gabmoevg225bg5ruvt77qt1r8685q0ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
